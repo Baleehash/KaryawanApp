@@ -48,23 +48,23 @@ Aplikasi Manajemen Karyawan ini adalah aplikasi berbasis Java yang memungkinkan 
       db.password=password
       ```
 4. **Impor Data Karyawan (Opsional)**:
-   - Letakkan file ```Karyawan.txt``` di root proyek, lalu jalankan opsi impor data pada menu awal aplikasi.
+     Letakkan file ```Karyawan.txt``` di root proyek, lalu jalankan opsi impor data pada menu awal aplikasi.
 
 ## Penggunaan
-   - Jalankan kelas ```Main.``` Aplikasi ini menyediakan menu pilihan untuk mengelola data karyawan.
+   Jalankan kelas ```Main.``` Aplikasi ini menyediakan menu pilihan untuk mengelola data karyawan.
 
-Pilihan Menu Utama
-- A: Import Configuration
-- B: Connect to Database
-- C: Import Employee Data
-- 1: Change Employee Status
-- 2: Edit Employee Data
-- 3: Record Attendance
-- 4: Record Leave
-- 5: Calculate Allowances
-- 6: Calculate Total Salary
-- 7: Generate Report by Status
-- 99: Exit
+   Pilihan Menu Utama
+   - A: Import Configuration
+   - B: Connect to Database
+   - C: Import Employee Data
+   - 1: Change Employee Status
+   - 2: Edit Employee Data
+   - 3: Record Attendance
+   - 4: Record Leave
+   - 5: Calculate Allowances
+   - 6: Calculate Total Salary
+   - 7: Generate Report by Status
+   - 99: Exit
 
 ## Contoh Tampilan Menu
 ```bash
