@@ -1,72 +1,72 @@
 # Employee Management System
 
-This is a Java-based Employee Management System that allows you to manage employee data, track attendance, calculate allowances and salaries, and generate reports by employee status. The system uses a MySQL database to store employee information.
+Employee Management System ini adalah aplikasi berbasis Java yang memungkinkan pengelolaan data karyawan, pelacakan kehadiran, perhitungan tunjangan dan gaji, serta pembuatan laporan berdasarkan status karyawan. Sistem ini menggunakan MySQL sebagai database untuk menyimpan informasi karyawan.
 
-## Features
+## Fitur
 
-1. **Import Configuration**: Load configurations from a `config.properties` file.
-2. **Database Connection**: Connect to a MySQL database using imported configurations.
-3. **Data Import**: Import employee data from a `Karyawan.txt` file to the database.
-4. **Employee Status Update**: Change employee status to Probation, Contract, Permanent, or Terminated.
-5. **Edit Employee Data**: Edit employee name and status.
-6. **Track Attendance**: Record employee attendance.
-7. **Track Leave**: Record employee leave.
-8. **Calculate Allowances**: Calculate allowances for permanent employees.
-9. **Calculate Total Salary**: Calculate monthly salary for all employees (excluding those with "Terminated" status).
-10. **Generate Report by Status**: Display a report for employees based on their status, showing ID, name, attendance, leave, total salary, and status.
+1. **Import Konfigurasi**: Memuat konfigurasi dari file `config.properties`.
+2. **Koneksi Database**: Terhubung ke database MySQL menggunakan konfigurasi yang telah diimpor.
+3. **Impor Data**: Mengimpor data karyawan dari file `Karyawan.txt` ke database.
+4. **Perbarui Status Karyawan**: Mengubah status karyawan menjadi Probation, Contract, Permanent, atau Terminated.
+5. **Edit Data Karyawan**: Mengedit nama dan status karyawan.
+6. **Pelacakan Kehadiran**: Mencatat kehadiran karyawan.
+7. **Pelacakan Cuti**: Mencatat cuti karyawan.
+8. **Perhitungan Tunjangan**: Menghitung tunjangan untuk karyawan berstatus permanent.
+9. **Perhitungan Total Gaji**: Menghitung gaji bulanan semua karyawan (kecuali yang berstatus "Terminated").
+10. **Laporan Berdasarkan Status**: Menampilkan laporan karyawan berdasarkan status, termasuk ID, nama, kehadiran, cuti, total gaji, dan status.
 
-## Technologies Used
+## Teknologi yang Digunakan
 
-- **Java**: Core language for building the application.
-- **MySQL**: Database for storing employee data.
-- **JDBC**: Java Database Connectivity for interacting with the database.
+- **Java**: Bahasa pemrograman utama untuk aplikasi ini.
+- **MySQL**: Database untuk menyimpan data karyawan.
+- **JDBC**: Java Database Connectivity untuk interaksi dengan database.
 
-## Prerequisites
+## Persyaratan
 
-- **Java JDK** 11 or later
-- **MySQL** installed and running
-- **MySQL JDBC Driver** (added to the project)
-- **Maven** (optional, if using dependencies management)
+- **Java JDK** versi 11 atau lebih baru
+- **MySQL** yang terinstal dan berjalan
+- **MySQL JDBC Driver** (ditambahkan ke proyek)
+- **Maven** (opsional, jika menggunakan manajemen dependensi)
 
 ## Installation
 
-1. **Clone the repository**:
+1. **Klon repositori**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Baleehas/KaryawanApp.git
+   cd KaryawanApp
    ```
-2. **Set up MySQL database**:
-   - Create a database named employee_management.
-   - Use the SQL file provided (e.g., schema.sql) to create necessary tables.
+2. **Siapkan database MySQL**:
+   - Buat database bernama employee_management.
+   - Gunakan file SQL yang disediakan (misalnya, schema.sql) untuk membuat tabel yang diperlukan.
      
-3. **Configure database connection**:
-   - Create a config.properties file in the config directory.
-   - Add the following configuration:
+3. **Konfigurasi koneksi database**:
+   - Buat file ``config.properties`` di direktori config.
+   - Tambahkan konfigurasi berikut:
       ```bash
-      db.url=jdbc:mysql://localhost:3306/employee_management
-      db.username=your-username
-      db.password=your-password
+      db.url=jdbc:mysql://localhost:3306/perusahaan
+      db.username=root
+      db.password=password
       ```
-4. **Import Employee Data (Optional)**:
-   Place Karyawan.txt file in the project root, then run the import data option in the app's pre-menu.
+4. **Impor Data Karyawan (Opsional)**:
+   - Letakkan file ```Karyawan.txt``` di root proyek, lalu jalankan opsi impor data pada menu awal aplikasi.
 
-## Usage
-Run the Main class. The application provides a menu where you can choose various options to manage employee data.
+## Penggunaan
+   - Jalankan kelas ```Main.``` Aplikasi ini menyediakan menu pilihan untuk mengelola data karyawan.
 
-Main Menu Options
-A: Import Configuration
-B: Connect to Database
-C: Import Employee Data
-1: Change Employee Status
-2: Edit Employee Data
-3: Record Attendance
-4: Record Leave
-5: Calculate Allowances
-6: Calculate Total Salary
-7: Generate Report by Status
-99: Exit
+Pilihan Menu Utama
+- A: Import Configuration
+- B: Connect to Database
+- C: Import Employee Data
+- 1: Change Employee Status
+- 2: Edit Employee Data
+- 3: Record Attendance
+- 4: Record Leave
+- 5: Calculate Allowances
+- 6: Calculate Total Salary
+- 7: Generate Report by Status
+- 99: Exit
 
-## Example
+## Contoh Tampilan Menu
 ```bash
 PRE-MENU
 ---------------
@@ -86,5 +86,7 @@ MENU
 Choose an option: 
 ```
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Lisensi
+
+Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file LICENSE untuk informasi lebih lanjut.
+
