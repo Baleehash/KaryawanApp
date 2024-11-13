@@ -54,17 +54,17 @@ Aplikasi Manajemen Karyawan ini adalah aplikasi berbasis Java yang memungkinkan 
    Jalankan kelas ```Main.``` Aplikasi ini menyediakan menu pilihan untuk mengelola data karyawan.
 
    Pilihan Menu Utama
-   - A: Import Configuration
-   - B: Connect to Database
-   - C: Import Employee Data
-   - 1: Change Employee Status
-   - 2: Edit Employee Data
-   - 3: Record Attendance
-   - 4: Record Leave
-   - 5: Calculate Allowances
-   - 6: Calculate Total Salary
-   - 7: Generate Report by Status
-   - 99: Exit
+   - A: Import Konfigurasi
+   - B: Koneksi ke Database
+   - C: Impor Data Karyawan
+   - 1: Ubah Status Karyawan
+   - 2: Edit Data Karyawan
+   - 3: Catat Kehadiran
+   - 4: Catat Cuti
+   - 5: Hitung Tunjangan
+   - 6: Hitung Total Gaji
+   - 7: Laporan Berdasarkan Status
+   - 99: Keluar
 
 ## Contoh Tampilan Menu
 ```bash
@@ -73,6 +73,7 @@ PRE-MENU
 A. Import Konfigurasi config.properties
 B. Connect to DB using config.properties database
 C. Import Data Karyawan.txt ke Database
+
 MENU
 --------
 1. Ganti Status Karyawan
