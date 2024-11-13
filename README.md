@@ -1,6 +1,6 @@
-# Employee Management System
+# Aplikasi Manajemen Karyawan
 
-Employee Management System ini adalah aplikasi berbasis Java yang memungkinkan pengelolaan data karyawan, pelacakan kehadiran, perhitungan tunjangan dan gaji, serta pembuatan laporan berdasarkan status karyawan. Sistem ini menggunakan MySQL sebagai database untuk menyimpan informasi karyawan.
+Aplikasi Manajemen Karyawan ini adalah aplikasi berbasis Java yang memungkinkan pengelolaan data karyawan, pelacakan kehadiran, perhitungan tunjangan dan gaji, serta pembuatan laporan berdasarkan status karyawan. Sistem ini menggunakan MySQL sebagai database untuk menyimpan informasi karyawan.
 
 ## Fitur
 
