@@ -1,0 +1,5 @@
+ID,Nama,GajiPokok,JmlAbsensi,JmlCutiTerpakai,Status
+1,John,4500000,19,1,Tetap
+2,Peter,5000000,17,3,Probation
+3,Linda,10000000,13,7,Kontrak
+4,Lucy,7000000,20,0,Keluar
